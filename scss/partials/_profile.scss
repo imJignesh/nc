@@ -243,7 +243,9 @@
 }
 
 .news-item-pro{
+    flex-direction: column;
     .news-img{position: absolute;}
+    .news__meta{position: relative;min-height:60px}
     .news-content{margin:0 !important;}
     .catname{margin-left: 60px;}
     h4.uk-h4.uk-margin-remove{margin-left:60px !important;}
