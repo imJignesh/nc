@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Profile</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.5/css/uikit.min.css"
+        integrity="sha512-ihdMAmrtp1BhW9YAgJr6/K1T69c6qIklJCRWhg2c83jazNcc00G7Mh49bbieaPtlJDr57fbJaxoeoHBzyz09sA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.5/js/uikit.min.js"
+        integrity="sha512-uC6XfU3l1h3YK9/CTdEoB0/quxEarq3UINC136pq2ibLIOHYC3FsTZSAbDrfsuGbhmPdNAe4jYXyVgXl0vdnfA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.6.5/js/uikit-icons.min.js"
+        integrity="sha512-wc8ErBYe4IW0tM5RZUwINqsPjzZcj0YFxQxieLWO/iyDaPeSAy5Fcw7gZebOfGHC4UzGxtYABX/LQzM9vTGbzA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"
+        integrity="sha512-Z/2pIbAzFuLlc7WIt/xifag7As7GuTqoBbLsVTgut69QynAIOclmweT6o7pkxVoGGfLcmPJKn/lnxyMNKBAKgg=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"
+        integrity="sha512-UdIMMlVx0HEynClOIFSyOrPggomfhBKJE28LKl8yR3ghkgugPnG6iLfRfHwushZl1MOPSY6TsuBDGPK2X4zYKg=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.5.3/smooth-scrollbar.min.js"
+        integrity="sha512-ZJjMc3VqnZJt3HPEuYURgE2y0UZ9KhaBIVms272gfWtCOQyp6IwC9AqJIjmtQXSWopaAwR7/9UjMVeNbJa/ybQ=="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.min.css"
+        rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.themes.min.css"
+        rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+    <!-- Mobile Navigation -->
+    <div id="ofcanvas" uk-offcanvas="overlay: true;mode: push">
+        <div class="uk-offcanvas-bar uk-flex  uk-flex-center">
+
+
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-medium-top">
+
+
+                <li class="uk-active"><a href="#" class="">Events</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">For You</a></li>
+                <li><a href="#">Communities</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- End Mobile Navigation -->
+
+
+
+    <div id="ofcanvasnew" uk-offcanvas="overlay: true;mode: push;flip: true">
+        <div class="uk-offcanvas-bar">
+
+
+
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+       
+            <div class="uk-width-1-1@s post__list">
+
+                <h3 class="uk-text-primary uk-h5">What's Happening</h3>
+
+                <h4 class="uk-text-secondary uk-margin-remove-top">Featured Post</h4>
+
+                <div class="news-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                    <div class="news-img uk-transition-toggle">
+                        <img class="uk-transition-scale-up uk-transition-opaque"
+                            src="https://chimpzlab.tech/img/100?123" alt="news img" width="100"
+                            height="100" />
+                    </div>
+                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                        <div
+                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                            Data Science & AI Community</div>
+
+                        <a href="">Software Development Process Metrics —- Why Should You Care ?</a>
+
+                        <div class="listing__meta">
+                            <i class="fa fa-calendar"></i><span
+                                class="uk-margin-small-right post-date">October
+                                20, 2020</span>
+                            <i class="fa fa-eye"></i><span
+                                class="post-view uk-margin-small-right">200</span>
+                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                        </div>
+                    </div>
+                </div>
+                <h4 class="uk-text-secondary uk-margin-remove-top">Trending Blogs</h4>
+
+                <div class="news-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                    <div class="news-img uk-transition-toggle">
+                        <img class="uk-transition-scale-up uk-transition-opaque"
+                            src="https://chimpzlab.tech/img/100?12" alt="news img" width="100"
+                            height="100" />
+                    </div>
+                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                        <div
+                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                            Community</div>
+
+                        <a href="">Digital dashboard for better coordination and insights</a>
+
+                        <div class="listing__meta">
+                            <i class="fa fa-calendar"></i><span
+                                class="uk-margin-small-right post-date">October
+                                20, 2020</span>
+                            <i class="fa fa-eye"></i><span
+                                class="post-view uk-margin-small-right">20</span>
+                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="uk-text-secondary uk-margin-remove-top">Reports</h4>
+
+                <div class="news-item uk-flex uk-clearfix uk-margin-small-bottom">
+                    <div class="news-img uk-transition-toggle">
+                        <img class="uk-transition-scale-up uk-transition-opaque"
+                            src="https://chimpzlab.tech/img/100?22" alt="news img" width="100"
+                            height="100" />
+                    </div>
+                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                        <div
+                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                            Digital Transformation</div>
+
+                        <a href="">3Cs – Customer, Culture and Competence, Driving business value
+                            for
+                            your
+                            customers</a>
+
+                        <div class="listing__meta">
+                            <i class="fa fa-calendar"></i><span
+                                class="uk-margin-small-right post-date">October
+                                20, 2020</span>
+                            <i class="fa fa-eye"></i><span
+                                class="post-view uk-margin-small-right">5620</span>
+                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <a href="#" class="uk-button primary__btn uk-margin-medium-bottom uk-button-small">See more
+                information</a>
+
+        </div>
+    </div>
+
+
+    <a class="create__btn uk-hidden@s" href="#"><i class="fas fa-user-plus"></i></a>
+    <div class="" uk-dropdown="mode: click;pos:right-bottom">
+
+        <ul class="uk-nav uk-dropdown-nav">
+            <li><a href="#">New Blog Post</a></li>
+            <li><a href="#">New Discussion</a></li>
+
+            <li><a href="#">New Video</a></li>
+            <li><a href="#">New Document</a></li>
+        </ul>
+
+
+    </div>
+
+    <div id="site">
+        <!-- Header  -->
+        <header id="masthead">
+            <div uk-sticky class="uk-section uk-background-primary uk-padding-small pre__header">
+                <div class="uk-container">
+                    <div class="uk-flex uk-width-1-1 uk-flex-middle">
+                        <div class="uk-flex-left  uk-flex-middle nav-overlay header__socialicons">
+                            <ul class="uk-iconnav uk-light">
+                                <li class="uk-visible@s	">Follow us</li>
+
+                                <li><a href="#" uk-icon="icon: facebook" class="uk-icon"></a></li>
+                                <li><a href="#" uk-icon="icon: google" class="uk-icon"></a></li>
+                                <li><a href="#" uk-icon="icon: twitter" class="uk-icon"></a></li>
+                                <li><a href="#" uk-icon="icon: linkedin" class="uk-icon"></a></li>
+                            </ul>
+                        </div>
+                        <div class="uk-navbar-right nav-overlay uk-position-relative" id="register__bar">
+
+                            <div class="uk-inline uk-position-relative">
+                                <a class="nav__create uk-button uk-button-small uk-button-primary  uk-border-pill"
+                                    href="#"><i uk-icon="plus"></i> <span class="uk-visible@s">Create </span> </a>
+
+                                <div class="" uk-dropdown="mode: click">
+
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li><a href="#">New Blog Post</a></li>
+                                        <li><a href="#">New Discussion</a></li>
+                                        <li><a href="#">New Video</a></li>
+                                        <li><a href="#">New Article</a></li>
+                                    </ul>
+
+
+                                </div>
+
+
+                                <a class="uk__notification uk-margin-small-left uk-position-relative uk-button uk-button-small uk-button-primary uk-border-pill uk-margin-small-left"
+                                    href="#"><i uk-icon="bell"></i> <span
+                                        class="uk-badge uk-position-top-left">1000+</span> </a>
+
+                                <div class="notification__bar uk-padding-small"
+                                    uk-dropdown="mode: click;pos:top-center">
+
+                                    <ul class="uk-tab uk-clearfix"
+                                        data-uk-tab="{connect:#reports_list, animation: uk-animation-fade}">
+                                        <li class="uk-active"><a href="#notification__new">Newest</a></li>
+                                        <li><a href="#notification__old">Oldest</a></li>
+                                    </ul>
+                                    <ul class="uk-width-1-1@s uk-switcher " data-uk-switcher="{active:1}">
+
+                                        <li class="scroller" data-scrollbar="true">
+
+
+
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?1203h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?1df23h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Why Should You Care?
+                                                    </a>
+                                                    <span>521 Days Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+
+
+                                        </li>
+                                        <li class="scroller" data-scrollbar="true">
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?1df23h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Dont' Should You Care?
+                                                    </a>
+                                                    <span>521 Days Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?120c3h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?12d03h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?1203eh" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?120c3h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?120c3h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                            <div class="notification-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                                <div class="notification-img">
+                                                    <img src="https://chimpzlab.tech/img/30?v1203h" alt="news img" width="30"
+                                                        height="30" />
+                                                </div>
+                                                <div class="notification-content uk-flex-1 uk-margin-small-left">
+
+
+                                                    <a href="">Software Development Process Metrics
+                                                        ?</a>
+                                                    <span>3m Ago</span>
+
+                                                </div>
+                                                <a href="#">
+                                                    <span uk-icon="more-vertical"></span>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
+
+                                <a class="nav__profile uk-margin-small-left uk-position-relative uk-light uk-margin-medium-left"
+                                    href="#"> <img class="uk-border-circle" src="https://chimpzlab.tech/img/30?1023h"
+                                        alt="news img" width="30" height="30" /> <span>John Doe</span></a>
+
+                                <div class="user__bar" uk-dropdown="mode: click;pos:top-right">
+
+                                    <ul class="uk-nav uk-dropdown-nav">
+                                        <li><a href="#">Profile</a></li>
+
+                                        <li><a href="#">Logout</a></li>
+                                    </ul>
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="nav-overlay uk-navbar-right uk-light uk-margin-remove-left">
+
+                            <a class="uk-navbar-toggle" uk-search-icon
+                                uk-toggle="target: .nav-overlay; animation: uk-animation-fade;" href="#"></a>
+
+                        </div>
+
+                        <div class="nav-overlay uk-navbar-left uk-flex-1 uk-light" hidden>
+
+                            <div class="uk-navbar-item uk-width-expand uk-light uk-autocomplete uk-form">
+                                <form class="uk-search uk-search-navbar uk-width-1-1 ">
+                                    <div class="uk-autocomplete">
+                                        <input id="site_search" class="uk-search-input" type="search"
+                                            placeholder="Try searching for people,topics or keywords" autofocus
+                                            maxlength="30">
+
+                                    </div>
+                                </form>
+
+                            </div>
+
+                            <a class="uk-navbar-toggle " uk-close
+                                uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section uk-padding-small">
+                <div class="uk-container">
+                    <div class="uk-grid uk-flex-middle uk-position-relative">
+                        <div class="uk-width-1-4@m uk-text-left">
+                            <a href="index.html" class="uk-logo">
+                                <img src="images/nasscom_community_logo.png" alt="logo" />
+                            </a>
+                        </div>
+                        <div class="uk-position-top-right uk-hidden@s">
+                        <a class="uk-margin-small-left mobile__nav " href="#ofcanvas" uk-toggle>
+                            MENU <span uk-icon="menu"></span> 
+                        </a>
+                        </div>
+                        <div class="uk-width-3-4@m uk-text-right header__ad">
+                            <div class=""><img src="https://chimpzlab.tech/img/900x100" alt="advertise" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section uk-background-primary  uk-light uk-padding-small menu_secondary uk-visible@s">
+                <div class="uk-container uk-position-relative">
+                    <div class="uk-visible@s">
+                        <ul class="uk-subnav  uk-margin-remove-vertical uk-subnav-pill">
+                            <li class="uk-active"><a href="#" class="">Events</a></li>
+                            <li><a href="#">Reports</a></li>
+                            <li><a href="#">Communities</a></li>
+                            <li><a href="#">News</a></li>
+
+                        </ul>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </header>
+        <!-- End Header  -->
+
+
+
+
+
+
+        <!-- Blog Posts -->
+        <div class="uk-section-full" id="profile_posts">
+            <div class="uk-container">
+
+
+                <div class="uk-flex ">
+                    <div class="uk-width-auto uk-column-divider  uk-padding-remove@s profile__nav">
+
+                        <ul class="uk-nav uk-nav-pimary uk-padding-small" uk-sticky="bottom: #profile_posts;offset: 50">
+
+
+                            <li class="uk-active"><a href="#" class=""><i class="fa fa-home"></i> <span>Home</span></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-newspaper"></i> <span>My Content</span></a></li>
+                            <li><a href="#"><i class="fa fa-bell"></i> <span>Notifications</span></a></li>
+                            <li><a href="#"><i class="fa fa-bookmark"></i> <span>Bookmarks</span></a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="uk-width-expand uk-padding-small uk-padding-remove-top profile__page">
+                        <div class="uk-card uk-card-default profile__header "
+                            uk-sticky="bottom: #profile_posts;offset: 50">
+                            <div class="uk-position-relative">
+                            <h4 class="uk-margin-remove-top">John Doe</h4>
+
+                            <a href="#ofcanvasnew" uk-toggle  class="uk-align-right uk-position-absolute mobile__new uk-hidden@m">
+                                 What's <br/>Happening
+                            </a>
+                        </div>
+                        </div>
+                        <div class="uk-position-relative">
+                            <div class="uk-cover-container uk-height-small profile__cover">
+                                <img src="https://chimpzlab.tech/img/800x150" alt="" uk-cover>
+
+                            </div>
+                            <div class="profile__avatar uk-card uk-card-default  uk-position-bottom-left">
+                                <img class="uk-width-small" src="https://chimpzlab.tech/img/a/200x200" alt="">
+                            </div>
+                        </div>
+
+
+                        <div class="uk-flex">
+
+                            <div class="uk-width-expand uk-padding-small uk-padding-remove-right">
+                                <a href="#"  uk-toggle="target: #profile__modal" class="uk-button uk-float-right primary__btn uk-button-small"><i
+                                        class="fa fa-pen"></i>
+                                    <span class="uk-visible@s">Edit Profile</span> </a>
+                            </div>
+                        </div>
+
+                        <div class="profile__intro uk-margin-medium-bottom">
+
+                            <h4 class="uk-margin-remove-top profile__name">Mr. John Doe <i
+                                    class="fa fa-check-circle"></i><span> Verified by Community by Nasscom
+                                    Insights</span></h4>
+                            <p class="uk-margin-remove-top"><a href="">@profile_name</a></p>
+                            <p class="uk-margin-remove-top">Rank: <span class="uk-badge">Legend</span></p>
+                            <div class="uk-article uk-margin-small-top">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eveniet quod dolor a
+                                    corrupti placeat itaque, nihil deleniti molestiae odit, distinctio quo et molestias
+                                    ipsam voluptatum quaerat consectetur iste in.</p>
+                            </div>
+                            <hr/>
+                            <div class="uk-margin uk-text-left">
+                                
+                                <a href="" class="uk-icon-button  " uk-icon="facebook"></a>
+                                <a href="" class="uk-icon-button " uk-icon="twitter"></a>
+                                <a href="" class="uk-icon-button" uk-icon="linkedin"></a>
+                                <a href="" class="uk-icon-button" uk-icon="google"></a>
+                                <a href="" class="uk-icon-button uk-button-primary" uk-icon="link"></a>
+    
+                            </div>
+                            <hr />
+                            <div class="uk-article uk-margin-small-top uk-margin-large-bottom">
+                                <p>
+                                    <i class="fa fa-calendar"></i> <strong>Joined</strong> December 5 2010
+                                </p>
+                                <p><strong><a href="">2343</a></strong> Followers <strong>
+
+                                        <a class="uk-margin-small-left" href="">7</a></strong>
+                                    Following</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <ul id="posts_nav_tabs" class="uk-tab "
+                            data-uk-tab="{connect:#post_list, animation: uk-animation-fade}">
+                            <li class="uk-active"><a href="#all">Activity</a></li>
+                            <li><a href="#comments">Comments <span>& Replies</span></a></li>
+                            <li><a href="#media">Media</a></li>
+                            <li><a href="#likes">Likes</a></li>
+
+                        </ul>
+
+
+
+                        <ul class="uk-width-1-1@s post__list uk-switcher" id="post_list" data-uk-switcher="{active:1}">
+
+                            <li>
+
+                                <div class="news-item-pro uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img">
+                                        <img class="uk-border-circle" src="https://chimpzlab.tech/img/a/50?123" alt="news img"
+                                            width="50" height="50" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Data Science & AI Community</div>
+                                        <h4 class="uk-h4 uk-margin-remove">John Doe <small>@jondoe2302</small></h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+                                            accusantium neque! Optio facilis, exercitationem numquam minima repellendus
+                                            dolore laudantium commodi cupiditate eaque recusandae culpa obcaecati
+                                            corrupti libero, consectetur, ducimus eum.</p>
+
+                                        <img src="https://chimpzlab.tech/img/600x350" alt="" />
+                                        <div class="listing__meta uk-margin-top">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October 20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">200</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="news-item-pro uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img">
+                                        <img class="uk-border-circle" src="https://chimpzlab.tech/img/a/50?1d23" alt="news img"
+                                            width="50" height="50" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Data Science & AI Community</div>
+                                        <h4 class="uk-h4 uk-margin-remove">John Doe <small>@jondoe2302</small></h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+                                            accusantium neque! Optio facilis, exercitationem numquam minima repellendus
+                                            dolore laudantium commodi cupiditate eaque recusandae culpa obcaecati
+                                            corrupti libero, consectetur, ducimus eum.</p>
+
+                                        <img src="https://chimpzlab.tech/img/600x350?rr" alt="" />
+                                        <div class="listing__meta uk-margin-top">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October 20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">200</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="uk-text-center">
+                                    <button class="uk-button uk-button-small uk-button-primary uk-border-pill">Load
+                                        more</button>
+                                </div>
+                            </li>
+
+                            <li>
+
+                                <div class="news-item-pro uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img">
+                                        <img class="uk-border-circle" src="https://chimpzlab.tech/img/50?123" alt="news img"
+                                            width="50" height="50" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            AI Community</div>
+                                        <h4 class="uk-h4 uk-margin-remove">John Doe <small>@jondoe2302</small></h4>
+                                        <p>elit. Numquam, accusantium neque! Optio facilis, exercitationem numquam
+                                            minima repellendus dolore laudantium commodi cupiditate eaque recusandae
+                                            culpa obcaecati corrupti libero, consectetur, ducimus eum.</p>
+
+                                        <img src="https://chimpzlab.tech/img/600x350?123" alt="" />
+                                        <div class="listing__meta uk-margin-top">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October 20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">200</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="news-item-pro uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img">
+                                        <img class="uk-border-circle" src="https://chimpzlab.tech/img/50?1203" alt="news img"
+                                            width="50" height="50" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Data Science & AI Community</div>
+                                        <h4 class="uk-h4 uk-margin-remove">John Doe <small>@jondoe2302</small></h4>
+                                        <p>Numquam, accusantium neque! Optio facilis, exercitationem numquam minima
+                                            repellendus dolore laudantium Lorem, ipsum dolor sit amet consectetur
+                                            adipisicing elit. Numquam, accusantium neque! Optio facilis, exercitationem
+                                            numquam minima repellendus dolore laudantium commodi cupiditate eaque
+                                            recusandae culpa obcaecati corrupti libero, consectetur, ducimus eum.</p>
+
+                                        <img src="https://chimpzlab.tech/img/600x350?dfdf" alt="" />
+                                        <div class="listing__meta uk-margin-top">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October 20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">200</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </li>
+                            <li>
+
+                                <div class="news-item-pro uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img">
+                                        <img class="uk-border-circle" src="https://chimpzlab.tech/img/50?123" alt="news img"
+                                            width="50" height="50" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Data Science</div>
+                                        <h4 class="uk-h4 uk-margin-remove">John Doe <small>@jondoe2302</small></h4>
+                                        <p>Adipisicing elit. Numquam, accusantium neque! Optio facilis, exercitationem
+                                            numquam minima repellendus dolore laudantium commodi cupiditate eaque
+                                            recusandae culpa obcaecati corrupti libero, consectetur, ducimus eum.</p>
+
+                                        <img src="https://chimpzlab.tech/img/600x350" alt="" />
+                                        <div class="listing__meta uk-margin-top">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October 20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">200</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+
+                    <div class="uk-width-1-3 uk-column-divider uk-padding-small profile__news" >
+                        <div uk-sticky="bottom: #profile_posts;offset: 60">
+                            <div class="uk-width-1-1@s post__list">
+
+                                <h3 class="uk-text-primary uk-h5">What's Happening</h3>
+
+                                <h4 class="uk-text-secondary uk-margin-remove-top">Featured Post</h4>
+
+                                <div class="news-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-transition-opaque"
+                                            src="https://chimpzlab.tech/img/100?123" alt="news img" width="100"
+                                            height="100" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Data Science & AI Community</div>
+
+                                        <a href="">Software Development Process Metrics —- Why Should You Care ?</a>
+
+                                        <div class="listing__meta">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October
+                                                20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">200</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="uk-text-secondary uk-margin-remove-top">Trending Blogs</h4>
+
+                                <div class="news-item uk-flex uk-clearfix uk-margin-medium-bottom">
+                                    <div class="news-img uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-transition-opaque"
+                                            src="https://chimpzlab.tech/img/100?12" alt="news img" width="100"
+                                            height="100" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Community</div>
+
+                                        <a href="">Digital dashboard for better coordination and insights</a>
+
+                                        <div class="listing__meta">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October
+                                                20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">20</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4 class="uk-text-secondary uk-margin-remove-top">Reports</h4>
+
+                                <div class="news-item uk-flex uk-clearfix uk-margin-small-bottom">
+                                    <div class="news-img uk-transition-toggle">
+                                        <img class="uk-transition-scale-up uk-transition-opaque"
+                                            src="https://chimpzlab.tech/img/100?22" alt="news img" width="100"
+                                            height="100" />
+                                    </div>
+                                    <div class="news-content uk-flex-1 uk-margin-small-left">
+                                        <div
+                                            class="catname uk-background-primary uk-display-inline uk-padding-small uk-padding-remove-vertical uk-border-pill">
+                                            Digital Transformation</div>
+
+                                        <a href="">3Cs – Customer, Culture and Competence, Driving business value
+                                            for
+                                            your
+                                            customers</a>
+
+                                        <div class="listing__meta">
+                                            <i class="fa fa-calendar"></i><span
+                                                class="uk-margin-small-right post-date">October
+                                                20, 2020</span>
+                                            <i class="fa fa-eye"></i><span
+                                                class="post-view uk-margin-small-right">5620</span>
+                                            <i class="fa fa-thumbs-up"></i><span class=" post-likes">20</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <a href="#" class="uk-button primary__btn uk-margin-medium-bottom uk-button-small">See more
+                                information</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <!-- End Blog Posts -->
+
+
+
+
+
+
+           <!-- Footer -->
+           <footer id="colophon">
+            <div class="uk-section uk-padding-medium uk-background-primary uk-light footer__bg uk-background-cover">
+                <div class="uk-container">
+                    <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-flex uk-grid" data-uk-grid="">
+                        <div class="uk-first-column">
+                            <h4>About Us</h4>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="#">What We Do</a></li>
+                                <li><a href="#">Advisory Board</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Community Guide</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Knowledge Center</h4>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Reports</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Leaders Talk</a></li>
+                                <li><a href="#">Topic in Demand</a></li>
+                                <li><a href="#">Featured</a></li>
+
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>In the News</h4>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Press Release</a></li>
+                                <li class="spacer"></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                      
+                        <div>
+                            <h4>Newsletter</h4>
+                            <form id="form__subscribe" class="uk-form uk-grid-small uk-margin-medium-top uk-grid"
+                                data-uk-grid="">
+
+                                <div class="uk-width-1-1 uk-grid-margin">
+                                    <!-- <span class="uk-form-icon fas fa-envelope fa-sm"></span> -->
+                                    <input class="uk-input uk-border-rounded" id="subscriber_email" name="email"
+                                        type="email" required title="Enter valid Email" placeholder="Email address">
+                                </div>
+                                <div class="uk-width-1-1 uk-grid-margin">
+                                    <div class="uk-alert-danger error__list ">
+                                        <div class="errors"></div>
+                                    </div>
+                                    <button class="uk-width-1-1 uk-button uk-button-primary uk-border-rounded submit"
+                                        id="sendemail" type="submit" name="submit">Subscribe <span
+                                            uk-spinner></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="uk-section uk-padding-small uk-section-default uk-section-muted">
+                <div class="uk-container">
+                    <div class="uk-grid uk-flex uk-flex-middle" data-uk-grid="">
+                        <div class="uk-width-1-4@m">
+                            <a href="index.html" class="uk-logo">
+                                <img src="images/nasscom_community_logo.png" alt="logo" />
+                            </a>
+                        </div>
+                        <div class="uk-width-3-4@m in-copyright-text uk-text-right@m">
+                            <p>&copy; Copyright Nasscom. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div id="profile__modal" uk-modal>
+
+
+        <div class="uk-modal-dialog uk-modal-body">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+
+            <form id="form__profile">
+                <fieldset class="uk-fieldset">
+
+                    <!-- <legend class="uk-legend">Edit Profile</legend> -->
+<!-- <br/> -->
+<div class="uk-alert-danger error__list ">
+    <div class="errors"></div>
+</div>
+<ul class="uk-tab uk-clearfix"
+data-uk-tab="{connect:#profile_edit, animation: uk-animation-fade}">
+<li class="uk-active"><a href="#basic">Basic Information</a></li>
+<li><a href="#password">Password</a></li>
+</ul>
+<ul class="uk-width-1-1@s uk-switcher " data-uk-switcher="{active:1}">
+    <li>
+        <div id="profile_posts">
+            <div class="uk-position-relative">
+                <div class="uk-cover-container uk-height-small profile__cover">
+                    <img src="https://chimpzlab.tech/img/800x150" alt="" uk-cover>
+                    <div class="js-upload uk-position-top-right " uk-form-custom>
+                        <input type="file" >
+                        <button class="cover__upload uk-button uk-button-primary uk-border-pill uk-button-small" type="button" tabindex="-1"> <i class="fa fa-file-upload"></i> Upload</button>
+                    </div>
+                    
+                </div>
+                <div class="profile__avatar uk-card uk-card-default  uk-position-bottom-left">
+                    <img class="uk-width-small" src="https://chimpzlab.tech/img/200x200" alt="">
+                    <div class="js-upload uk-overlay-default uk-position-cover" uk-form-custom>
+                        <input type="file">
+                        <button class="uk-button uk-button-default uk-position-center" type="button" tabindex="-1"><i class="fa fa-image"></i></button>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <div class="uk-flex">
+
+                <div class="uk-width-expand uk-padding-small uk-padding-remove-right">
+                 
+                </div>
+            </div>
+
+        </div>
+         
+
+            <div class="uk-margin uk-inline uk-width-1-1 ">
+                <br/>
+                <label>Username: <strong>@johndoe1221</strong> (can't be changed)</label>
+                <br/>
+            </div> 
+         
+            <div class="uk-margin uk-flex">
+            <div class="uk-margin uk-inline uk-width-1-2">
+
+                <input name="firstname" class="uk-input" type="text" placeholder="First Name"
+                    title="Please enter your Name (at least 3 characters)" required minlength="3">
+            </div>
+            
+            <div class="uk-margin uk-inline uk-width-1-2">
+
+                <input name="lastname" class="uk-input" type="text" placeholder="Last Name"
+                    title="Please enter your Last Name (at least 3 characters)" required minlength="3">
+            </div>
+            </div>
+           <div class="uk-margin uk-inline uk-width-1-1">
+                <input name="p_email" class="uk-input" type="text" placeholder="Email" required title="Please enter valid email">
+            </div>
+            <div class="uk-margin uk-inline uk-width-1-1">
+                <textarea name="bio" class="uk-textarea" type="text" placeholder="Bio" rows="4"></textarea>
+            
+            </div>  
+            <div class="uk-margin  uk-grid" >
+                <div class="uk-width-1-2">
+
+                <input name="p_orgname" class="uk-input " type="text" placeholder="Organization Name">
+                </div>
+                <div class="uk-width-1-2">
+                    <select class="uk-select">
+                        <option>Who can see this field</option>
+                        <option>Everyone</option>
+                        <option>Only Me</option>
+                        <option>All Members</option>
+                    </select>
+                    </div>
+                 
+                      
+            </div>   
+            
+            <div class="uk-margin  uk-grid" >
+                <div class="uk-width-1-2">
+
+                <input name="p_designation" 
+                    minlength="3" class="uk-input" type="text" placeholder="Designation">
+                </div>
+                <div class="uk-width-1-2">
+                    <select class="uk-select">
+                        <option>Who can see this field</option>
+                        <option>Everyone</option>
+                        <option>Only Me</option>
+                        <option>All Members</option>
+                    </select>
+                    </div>
+            </div>
+                
+            <div class="uk-margin  uk-grid" >
+                <div class="uk-width-1-2">
+
+                <input name="p_aoi" 
+                    minlength="3" class="uk-input" type="text" placeholder="Area of interest">
+                </div>
+                <div class="uk-width-1-2">
+                    <select class="uk-select">
+                        <option>Who can see this field</option>
+                        <option>Everyone</option>
+                        <option>Only Me</option>
+                        <option>All Members</option>
+                    </select>
+                    </div>
+            </div>
+            <br/>
+            <strong>EXTERNAL LINKS</strong>
+            
+      
+
+<div class="uk-margin">
+<div class="uk-form-controls">
+    <input class="uk-input" id="p_facebook" type="text" placeholder="Facebook">
+</div>
+</div>  <div class="uk-margin">
+<div class="uk-form-controls">
+    <input class="uk-input" id="p_twitter" type="text" placeholder="Twitter">
+</div>
+</div>  <div class="uk-margin">
+<div class="uk-form-controls">
+    <input class="uk-input" id="p_linkedin" type="text" placeholder="Linkedin">
+</div>
+</div>  <div class="uk-margin">
+<div class="uk-form-controls">
+    <input class="uk-input" id="p_youtube" type="text" placeholder="Youtube">
+</div>
+</div>  <div class="uk-margin">
+<div class="uk-form-controls">
+    <input class="uk-input" id="p_pintrest" type="text" placeholder="Pintrest">
+</div>
+</div> <div class="uk-margin">
+<div class="uk-form-controls">
+    <input class="uk-input" id="p_site" type="text" placeholder="Website">
+</div>
+</div>            
+<br/>
+
+    </li>
+    <li>
+        <strong>CHANGE PASSWORD</strong>
+
+<div class="uk-margin uk-inline uk-width-1-1">
+
+    <input class="uk-input" type="password" name="old_password" placeholder="Old Password"
+        title="Passwords should match">
+</div>
+<div class="uk-margin uk-inline uk-width-1-1">
+
+
+    <input class="uk-input" id="password_profile" type="password" name="password"
+        placeholder="Password" title="Please enter your password, between 5 and 12 characters"
+         minlength="5">
+    <a class="uk-form-icon uk-form-icon-flip fa fa-eye passwordtoggle" href="#"></a>
+</div>
+<div class="uk-margin uk-inline uk-width-1-1">
+
+    <input class="uk-input" type="password" name="repeat_password" placeholder="Repeat Password"
+        title="Passwords should match">
+</div>
+
+    </li>
+    </ul>
+                
+
+
+                    <div class="uk-margin uk-flex uk-flex-between">
+                        <div class="uk-flex-right">
+                            <button class=" uk-button uk-button-primary submit" type="submit">Save <span
+                                    uk-spinner></span>
+                            </button>
+                        </div>
+                    </div>
+
+                
+
+                </fieldset>
+            </form>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
